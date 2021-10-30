@@ -6,7 +6,7 @@ let package = Package(
     platforms: [
         .iOS(.v11),
         .macOS(.v10_15),
-        .tvOS(.v11)
+        .tvOS(.v13)
     ],
     products: [
         .library(name: "Looping", targets: ["Looping"]),
